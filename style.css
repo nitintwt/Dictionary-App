@@ -5,16 +5,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f9f9f9; /* Light gray background */
+  background-color: #f9f9f9; 
   font-family: 'Arial', sans-serif;
 }
 
 #dictionary-box {
-  background-color: #fff; /* White box background */
+  background-color: #fff; 
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 400px;
-  text-align: left; /* Align text to the left */
+  text-align: left;
   padding: 30px;
 }
 
@@ -35,12 +35,12 @@ body {
 }
 
 #input:focus {
-  border-color: #66afe9; /* Blue border on focus */
+  border-color: #66afe9; 
 }
 
 #search {
-  background-color: #4caf50; /* Green button background */
-  color: #fff; /* White text color */
+  background-color: #4caf50; 
+  color: #fff; 
   padding: 12px 20px;
   font-size: 16px;
   border: none;
@@ -50,7 +50,7 @@ body {
 }
 
 #search:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049; 
 }
 
 #result {
