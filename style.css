@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9; /* Light gray background */
+  font-family: 'Arial', sans-serif;
+}
+
+#dictionary-box {
+  background-color: #fff; /* White box background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: left; /* Align text to the left */
+  padding: 30px;
+}
+
+#input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#input {
+  flex: 1;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#input:focus {
+  border-color: #66afe9; /* Blue border on focus */
+}
+
+#search {
+  background-color: #4caf50; /* Green button background */
+  color: #fff; /* White text color */
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#word {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+#grammar {
+  color: #888;
+  margin-bottom: 12px;
+}
+
+#meaning {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+#example {
+  color: #555;
+}
